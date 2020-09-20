@@ -1,0 +1,10 @@
+[muses]
+    [muses.logger.system]
+        debug = true
+        level = "debug"
+        path = "./system.log"
+    [muses.oss.poster]
+        mode = "file"   # oss, file
+        isDeleteSrcPath = false
+        cdnName = "http://127.0.0.1:9031/geekoss/"
+        fileBucket = "data/geekoss"
